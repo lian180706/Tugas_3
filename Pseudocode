@@ -1,0 +1,35 @@
+1.pseudocode tugas3_no1
+BEGIN
+    n = 7
+    FOR i FROM n DOWNTO 1 DO
+        FOR j FROM 1 TO i DO
+            PRINT j WITH SPACE
+        END FOR
+        PRINT NEWLINE
+    END FOR
+END
+
+2.pseudocode tugas3_no2
+BEGIN
+    n = 8
+    FOR i FROM 0 TO n - 1 DO
+        PRINT " " * i  // Cetak spasi i kali
+        PRINT "*" * (n - i)  // Cetak bintang n - i kali
+        PRINT NEWLINE
+    END FOR
+END
+
+3.pseudocode tugas3_no3
+BEGIN
+SET n = 6
+FOR i FROM 1 TO n DO
+    FOR j FROM 1 TO (n - i) DO
+        PRINT " "  // Print space for alignment
+    END FOR
+    FOR j FROM 1 TO i DO
+        PRINT "*"  // Print star
+        PRINT " "  // Print space after star
+    END FOR
+    PRINT NEWLINE  // Move to the next line
+END FOR
+END
